@@ -1,0 +1,16 @@
+table
+{
+    border: 2px solid bule;
+    /* border-collapse:collapse; */
+    /* background-color: grey; */
+    border-radius: 10px;
+    width: 30%;
+
+}
+tr:nth-child(even) 
+{
+    background-color: antiquewhite;
+}
+th{
+    background-color: rgb(199, 193, 185);
+}

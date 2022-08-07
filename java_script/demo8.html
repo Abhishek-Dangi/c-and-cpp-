@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <title>get element by id</title>
+        <script>
+            function show(){
+                var obj = document.getElementById('res');   // obj = get element by res
+                var obj1 = document.getElementById('res1'); // obj = get element by res1
+
+                obj.innerHTML = "hello students";     // obj = inner hello students
+                obj1.value = "hello boys..";          // obj = value hello boys.
+
+            }
+        </script>
+    </head>
+    <body>
+        <input type="text" id="res1" readonly>  <!--res1 is take value on obj1 hello boys in input box--> 
+        <h1 id="res"></h1>              <!--res is take value on obj -->
+
+        <button onclick="show()"> click here!</button>
+    </body>
+</html>

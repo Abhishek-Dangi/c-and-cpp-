@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title></title>
+        <script>
+            function show()  // without return value without parameter
+            {
+                document.write("<h1> show is called...</h1>");
+            }
+            function display(x) // without return value with parameter
+            {
+                document.write("<h1> display called.."+x+"</h1>");
+            }
+            function add(x,y) // with return type with argument 
+            {
+                var z = x+y;
+                //return x+y
+                return z;
+            }
+            function fact()  // with return type without parameter
+            {
+                var num = 5;
+                var f=1; 
+                for(i=1;i<=num;i++)
+                {
+                    f = f*i;
+                }
+                return f;
+            }
+            show();
+            display(10);
+            res= add(10,20);
+            document.write("<h1> add is"+res+"</h1>");
+            result = fact();
+            document.write("<h1> factorial is"+result+"</h1>");
+         </script>
+    </head>
+</html>
