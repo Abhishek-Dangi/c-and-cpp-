@@ -1,52 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <div style="border: 2px solid black; width:340px;">
-    <h1>User Input Form</h1>
-    <div style="width:200px;height:220px;padding: 2px; box-decoration-break:slice;" >
-        
-        <fieldset style="width: 300px;height: 220px ;"><legend>Personal Particular</legend>
-    
+        <h1>User Input Form</h1>
+        <div style="width:200px;height:220px;padding: 2px; box-decoration-break:slice;">
+
+            <fieldset style="width: 300px;height: 220px ;">
+                <legend>Personal Particular</legend>
+
+                <br>
+                <lable>Name:</lable><input type="text">
+                <br><br>
+                <lable>password:</lable><input type="password">
+                <br><br>
+                <span>Gender:</span><input type="radio" id="male" name="gen">
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="gen">
+                <label for="female">female</label>
+                <br><br>
+                <span>Age:</span>
+                <input type="date">
+        </div>
         <br>
-        <lable>Name:</lable><input type="text">
-    <br><br>
-    <lable>password:</lable><input type="password">
-    <br><br>
-    <span>Gender:</span><input type="radio" id="male" name="gen">
-    <label for="male"  >Male</label>
-    <input type="radio" id="female" name="gen">
-    <label for="female">female</label>
-    <br><br>
-    <span>Age:</span>
-    <input type="date"></div>
-    <br>
         </fieldset>
-    <div >
-        <fieldset style="width:300px;""><legend>Language</legend>
-    <br><br>
-    <input type="checkbox" name="java">
-    <label for="java"> Java</label>
-    <input type="checkbox" name="c/c++">
-    <label for="c/c++"> C/C++</label>
-    <input type="checkbox" name="c#">
-    <label for="c#">C#</label>
-    <br><br></div>
-</fieldset>
-    <div>
-    <fieldset style="width:300px;"><legend>Instruction</legend>
-    <br><br>
-    <textarea name="ins" id="in1" cols="35" rows="10">Enter your instruction here...</textarea>
-        <input type="button" value="SEND">
-        <input type="button" value="CLEAR">
-    </fieldset>
-</div>
-</div>
+        <div>
+            <fieldset style="width:300px;">
+                <legend>Language</legend>
+                <br><br>
+                <input type="checkbox" name="java">
+                <label for="java"> Java</label>
+                <input type="checkbox" name="c/c++">
+                <label for="c/c++"> C/C++</label>
+                <input type="checkbox" name="c#">
+                <label for="c#">C#</label>
+                <br><br>
+        </div>
+        </fieldset>
+        <div>
+            <fieldset style="width:300px;">
+                <legend>Instruction</legend>
+                <br><br>
+                <textarea name="ins" id="in1" cols="35" rows="10">Enter your instruction here...</textarea>
+                <input type="button" value="SEND">
+                <input type="button" value="CLEAR">
+            </fieldset>
+        </div>
+    </div>
 
 </body>
+
 </html>
